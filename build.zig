@@ -6,6 +6,7 @@ pub fn build(b: *Builder) void {
     // Each tutorial stage, its source file, and description
     const targets = [_]Target{
         .{ .name = "base_code", .src = "src/00_base_code.zig", .description = "Base Code" },
+        .{ .name = "instance_creation", .src = "src/01_instance_creation.zig", .description = "Instance Creation" },
     };
 
     // Build all targets
